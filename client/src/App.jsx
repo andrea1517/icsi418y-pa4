@@ -4,6 +4,7 @@ import Signup from "./components/account/Signup";
 import CreateProject from "./components/projects/CreateProject";
 import ViewProjectList from "./components/projects/ViewProjectList";
 import ManageMemberships from "./components/projects/ManageMemberships";
+import ProjectBacklog from "./components/projects/ProjectBacklog";
 
 function App() {
   const [page, setPage] = useState("login");
@@ -20,6 +21,7 @@ function App() {
         {page === "createProject" && <CreateProject />}
         {page === "viewProjectList" && <ViewProjectList />}
         {page === "manageMemberships" && <ManageMemberships />}
+        {page === "projectBacklog" && <ProjectBacklog />}
 
         <br/>
 
@@ -42,6 +44,7 @@ function App() {
         <button type="button" onClick={() => setPage("createProject")}>Create Project</button>
         <button type="button" onClick={() => setPage("viewProjectList")}>View Projects</button>
         <button type="button" onClick={() => setPage("manageMemberships")}>Manage Members</button>
+        <button type="button" onClick={() => setPage("projectBacklog")}>Project Backlog</button>
       </div>
 
       <div className="return">

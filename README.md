@@ -1,14 +1,14 @@
-# ICSI418Y - Programming Assignment 3: Projects
+# ICSI418Y - Programming Assignment 4: User Stories and Project Backlog
 
 **Author:** Andrea Ye
 
-This is an extension of PA2. New features include being able to create and view projects and manage members of a project.
+This is an extension of PA3. New features include being able to create, edit, save, and delete user stories. Stories display title, description, priority, progress status, and the assigned member responsible for the user story. Additionally, users are able to view their project backlog where they can access and modify user stories.
 
 ## How to Run the Application
 1. Clone this repository.
 ```bash
-git clone https://github.com/andrea1517/icsi418y-pa3.git
-cd icsi418y-pa3
+git clone https://github.com/andrea1517/icsi418y-pa4.git
+cd icsi418y-pa4
 ```
 
 2. Open one terminal and enter
@@ -30,4 +30,4 @@ node server.js
 - Create your own `.env` file and add in your MongoDB connection string in the format of `MONGO_URI=YOUR_MONGODB_CONNECTION_STRING`
 
 ## Incomplete Features
-PA3 has the same incomplete features as PA2.
+PA4 has the same incomplete features as PA3.
